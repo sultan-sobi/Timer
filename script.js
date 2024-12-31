@@ -6,7 +6,7 @@ const resetE=document.getElementById("reset");
 const timerE=document.getElementById("timer");
 
 let timer;
-let totalTime=15;
+let totalTime=1500;
 
 function updateTimer(){
    
@@ -22,7 +22,7 @@ function startTimer(){
           if(totalTime===0){
             alert("Time is up! ");
             clearInterval(timer);
-            totalTime=15;
+            totalTime=1500;
           }
     }, 1000);
     
